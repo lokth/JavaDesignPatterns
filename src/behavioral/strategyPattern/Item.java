@@ -1,4 +1,4 @@
-package behavioural.strategyPattern;
+package behavioral.strategyPattern;
 
 public class Item {
 	 
