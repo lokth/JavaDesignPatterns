@@ -1,10 +1,6 @@
 package behavioral.observerPattern;
 
-public interface Observer {
-    
-    //method to update the observer, used by subject
-    public void update();
-     
-    //attach with subject to observe
-    public void setSubject(Subject sub);
-}
+public abstract class Observer {
+	   protected Subject subject;
+	   public abstract void update();
+	}
